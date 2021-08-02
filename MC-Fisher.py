@@ -34,7 +34,8 @@ console_text.config(state="disabled")
 console_text.see("end")
 
 sys.stdout = TR.TextRedirector(console_text)    # Send console output to textbox instead of actual console.
-sys.stderr = TR.TextRedirector(console_text)
+# sys.stderr = TR.TextRedirector(console_text)  # Errors will output in console
+
 print("PLEASE READ BEFORE USING:\n")
 print("The bot works by detecting a specific shade of red on the bobber. With that being said...")
 print("Before you use the bot, you should turn your brightness all the way up.")
