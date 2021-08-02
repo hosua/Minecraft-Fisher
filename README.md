@@ -1,2 +1,12 @@
 # Minecraft-Fisher
 A Minecraft fishing bot, inspired from https://github.com/FairfieldTekLLC/McFishing
+
+Originally, this was written in C#. However, I wanted to rewrite it in Python for fun, and so that I could get it working on Linux.
+
+Note: You will have to bind your right-mouse-button to 'r' ingame. I had to use a key instead of the mouse as a workaround.
+
+For best results, turn your brightness all the way up and make sure the area you are in is very lit. The program works by detecting a specific shade of red on the bobber. If this fails for any reason such as poor lighting, or another red entity being detected, the bot will not work properly.
+
+![1](https://i.imgur.com/aNfmbWv.png)
+
+
