@@ -153,7 +153,7 @@ def stop_task(event=None):
         running = False
         times_not_detected = 0
 
-start_btn = tk.Button(root, text="Start (`)", bg=DARK_GREY,
+start_btn = tk.Button(root, text="Start (~)", bg=DARK_GREY,
                      fg=LIGHT_BLUE, command=start_task, width=10)
 stop_btn = tk.Button(root, text="Stop (F1)", bg=DARK_GREY,
                      fg=LIGHT_BLUE, command=stop_task, width=10)
